@@ -31,4 +31,5 @@ jobs:
             - name: Building project
               run: npm run build
             - name: Deploying project
-              run: npm run deploy
+              run: echo "Deploying project..." 
+              # Replace this with your actual deployment command
